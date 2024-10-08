@@ -9,6 +9,8 @@
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
     width: 100%;
+    position:fixed;
+    
 }
 .uploadDivs{
     padding: 10px;
@@ -31,6 +33,7 @@
     justify-content: center;
     font-size: 40px;
     
+    
 }
 .StoryContainer{
     display: flex;
@@ -39,4 +42,15 @@
     height: 10%;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
+    margin-top: 40%;
+}
+.StoryContainer::-webkit-scrollbar{
+    display: none;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }

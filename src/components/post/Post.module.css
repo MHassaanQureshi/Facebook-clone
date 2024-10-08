@@ -1,0 +1,133 @@
+.container{
+    width: 95%;
+    height: 70vh;
+    display: flex;
+    background: white;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    flex-direction: column;
+   
+    padding: 10px;
+    margin-top: 5%;
+}
+.User{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20%;
+    top: 0;
+    justify-content: space-evenly;
+}
+.userdetail{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    gap: 2%;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.time{
+    font-weight: 200;
+    font-size: 16px;
+    color: rgba(128, 128, 128, 0.513);
+}
+.userdetail img{
+    width: 20%;
+    height: 60%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-size: cover;
+}
+.menu{
+    display: flex;
+    padding: 10px;
+    gap: 20%;
+    margin-right: 10%;
+
+}
+.menu img{
+    width: 30px;
+    height: 30px;
+}
+.content{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 2%;
+    justify-content: center;
+   
+
+}
+.content p{
+    padding: 5px;
+}
+.content img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+.Analysis{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px;
+    color: rgba(128, 128, 128, 0.499);
+}
+.like{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50%;
+}
+.likepart{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    padding: 10px;
+    gap: 10%;
+
+}
+.likepart img{
+    width: 40%;
+    background: rgba(24, 118, 242, 0.302);
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.likepart img:hover{
+    background: rgb(24,119,242);
+}
+.emoji{
+    width: 50%;
+
+
+}
+.emoji img{
+    width: 90%;
+}
