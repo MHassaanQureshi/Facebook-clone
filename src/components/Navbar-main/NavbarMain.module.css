@@ -1,0 +1,29 @@
+.container{
+    margin: 0%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+     border-bottom: 1px solid rgba(128, 128, 128, 0.293);
+     width: 100%;
+    
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin-right: 10%;
+    
+}
+.menu img{
+    cursor: pointer;
+    background: rgba(128, 128, 128, 0.302);
+    padding: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
