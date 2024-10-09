@@ -3,14 +3,13 @@
     height: 70vh;
     display: flex;
     background: white;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
     flex-direction: column;
-   
-    padding: 10px;
+    padding:0px 10px;
     margin-top: 5%;
 }
 .User{
@@ -58,8 +57,8 @@
 
 }
 .menu img{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 .content{
     width: 100%;
@@ -130,4 +129,22 @@
 }
 .emoji img{
     width: 90%;
+}
+@media (width<=420px){
+    .userdetail img{
+        width: 40%;
+        padding: 0%;
+    }
+    .menu img{
+        width: 30%;
+        height: 30%;
+        
+        
+    }
+    .menu{
+        margin-right: 0%;
+    }
+    .userdetail p{
+        font-size: 15px;
+    }
 }

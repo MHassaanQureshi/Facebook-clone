@@ -19,12 +19,12 @@ export default function Homepage(){
         </div>
         </div>
         <div className={Style.StoryContainer}>
-            <Story img="images/profile-1.jpg"/>
-            <Story img="images/profile-2.jpg"/>
-            <Story img="images/profile-3.jpg"/>
-            <Story img="images/profile-4.jpg"/>
-            <Story img="images/profile-5.jpg"/>
-            <Story img="images/profile-6.jpg"/>
+            <Story img="images/profile-1.jpg" name="Anna may"/>
+            <Story img="images/profile-2.jpg" name="john sam"/>
+            <Story img="images/profile-3.jpg" name="Alex"/>
+            <Story img="images/profile-4.jpg" name="Alina mathew" />
+            <Story img="images/profile-5.jpg" name="unknown user"/>
+            <Story img="images/profile-6.jpg" name="unknown user"/>
             
             
         </div>

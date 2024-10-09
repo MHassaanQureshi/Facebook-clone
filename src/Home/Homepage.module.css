@@ -17,6 +17,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 20px;
 }
 .YourSty{
     width: 0%;
@@ -37,12 +38,13 @@
 }
 .StoryContainer{
     display: flex;
-    gap: 30px;
-    padding: 20px;
-    height: 10%;
+    gap:3rem;
+    padding: 20px 0px;
+    height: 15%;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     margin-top: 40%;
+    
 }
 .StoryContainer::-webkit-scrollbar{
     display: none;
@@ -53,4 +55,10 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
+}
+@media (width<= 420px) {
+ .StoryContainer{
+    margin-top: 65%;
+    gap:5rem;
+ }
 }
