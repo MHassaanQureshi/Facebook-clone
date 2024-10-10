@@ -1,14 +1,15 @@
 import Style from "./Bar.module.css"
+import { Link } from 'react-router-dom';
 export default function Bar(){
     return(
         <>
         <div className={Style.container}>
             <div className={Style.main}>
-            <a href="home"><img src="images/home.png" alt=""   className={Style.user} /></a>
-            <a href=""><img src="images/reels.png" alt="" /></a>
-            <a href=""><img src="images/shop.png" alt="" /></a>
-            <a href="profile"><img src="images/user (1).png" alt=""  className={Style.user}/></a>
-            <a href=""><img src="images/setting.png" alt="" /></a>
+            <Link to="/home"><img src="images/home.png" alt=""   className={Style.user} /></Link>
+            <Link to=""><img src="images/reels.png" alt="" /></Link>
+            <Link to="/profile"><img src="images/user (1).png" alt=""  className={Style.user}/></Link>
+            <Link to=""><img src="images/setting.png" alt="" /></Link>
+            <Link to=""><img src="images/shop.png" alt="" /></Link>
             </div>
         </div>
         </>
