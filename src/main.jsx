@@ -7,8 +7,8 @@ import Bar from './components/bottomBar/Bar.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    {/* <div className="bar">
+    <div className="bar">
     <Bar />
-    </div> */}
+    </div>
   </StrictMode>,
 )
