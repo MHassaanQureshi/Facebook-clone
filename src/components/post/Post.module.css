@@ -132,7 +132,8 @@
 }
 @media (width<=420px){
     .userdetail img{
-        width: 40%;
+        width: 4rem;
+        height: 4rem;
         padding: 0%;
     }
     .menu img{
@@ -146,5 +147,6 @@
     }
     .userdetail p{
         font-size: 15px;
+        
     }
 }

@@ -3,7 +3,7 @@
     height: 80%;
     flex: 0 0 auto;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     display: flex;
     flex-direction: column;
 }
@@ -17,7 +17,7 @@
 }
 
 .container{
-    width: 100%;
+    width: 80%;
     height: 80%;
 }
 .container img{
@@ -36,9 +36,31 @@
 }
 @media (width<=420px){
     .containerMain p{
-        margin-left: 85%;
+        
         white-space: nowrap;      
-         
-  text-overflow: ellipsis;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: 100%;
+         margin-left: 180%;
+        text-overflow: ellipsis;
+        
     }
+    .container img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .containerMain{
+        width: 10%;
+        height: 60%;
+        flex: 0 0 auto;
+        align-items: center;
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 5px;
+    }
+    
+    
 } 

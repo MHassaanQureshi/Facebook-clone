@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    
+}
+.main{
+    overflow-x: hidden;
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+}
+.banner{
+    width: 100%;
+    height: 30vh;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.Profileimg{
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    top: 20%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Profileimg img{
+    width: 40%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 5px;
+    border: 10px solid white;
+    
+}
