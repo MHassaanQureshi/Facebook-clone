@@ -1,4 +1,5 @@
 import Style from "./Profile.module.css"
+import Bar from "../components/bottomBar/Bar";
 export default function Profile(){
     return(
         <>
@@ -19,7 +20,9 @@ export default function Profile(){
             </div> 
         </div>
         </div>
-        
+        <div className="bar">
+    <Bar />
+    </div>
         </>
     )
 }

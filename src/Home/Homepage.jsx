@@ -4,6 +4,7 @@ import Search from "../components/Searchbar/Search";
 import Upload from "../components/Upload/Upload";
 import Story from "../components/Story/Story";
 import Post from "../components/post/Post";
+import Bar from "../components/bottomBar/Bar";
 
 export default function Homepage(){
     return(
@@ -37,7 +38,9 @@ export default function Homepage(){
             
         </div>
     </div>
-    
+    <div className="bar">
+    <Bar />
+    </div>
     </>
     )
 }
