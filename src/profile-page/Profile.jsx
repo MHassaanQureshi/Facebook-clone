@@ -1,6 +1,9 @@
 import Style from "./Profile.module.css"
 import Bar from "../components/bottomBar/Bar";
 import Button from "../components/button/Button";
+import Transbut from "../components/transparent-button/Transbut";
+import PMB from "../components/Profile-menu/PMB";
+import About from "../components/About-person/About";
 export default function Profile(){
     return(
         <>
@@ -17,7 +20,18 @@ export default function Profile(){
                 <p>photographer / videographer</p>
                 </div>
             </div>
-            
+            <div className={Style.buttons}>
+                <Button />
+                <Transbut />
+                <PMB />
+            </div>
+            <div className={Style.about}>
+                <About img="images/graduation-hat.png" text="Studies at Oxford university"/>
+                <About img="images/home (1).png" text="Lives in London"/>
+                <About img="images/maps-and-flags.png" text="from Amsterdam"/>
+                <About img="images/suitcase.png" text="Photgraher/videographer"/>
+                <About img="images/heart.png" text="single"/>
+            </div>
             </div> 
             
             

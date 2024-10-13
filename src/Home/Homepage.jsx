@@ -18,7 +18,11 @@ export default function Homepage(){
         <Upload img="images/video.png" text="live video"/>
         <Upload img="images/eye.png" text="Check in"/>
         </div>
+        
         </div>
+        <div className="bar">
+    <Bar />
+    </div>
         <div className={Style.StoryContainer}>
             <Story img="images/profile-1.webp" name="Anna may"/>
             <Story img="images/profile-2.webp" name="john sam"/>
@@ -47,9 +51,7 @@ export default function Homepage(){
             
         </div>
     </div>
-    <div className="bar">
-    <Bar />
-    </div>
+    
     </>
     )
 }
