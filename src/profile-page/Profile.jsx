@@ -1,9 +1,10 @@
 import Style from "./Profile.module.css"
 import Bar from "../components/bottomBar/Bar";
-import Button from "../components/button/Button";
-import Transbut from "../components/transparent-button/Transbut";
+import Button from "../components/buttons/button/Button";
+import Transbut from "../components/buttons/transparent-button/Transbut";
 import PMB from "../components/Profile-menu/PMB";
 import About from "../components/About-person/About";
+import Story from "../components/profile-stories/Story";
 export default function Profile(){
     return(
         <>
@@ -32,6 +33,20 @@ export default function Profile(){
                 <About img="images/suitcase.png" text="Photgraher/videographer"/>
                 <About img="images/heart.png" text="single"/>
             </div>
+            <div className={Style.stories}>
+                <Story img="images/view1.webp" country="norway"/>
+                <Story img="images/view2.webp" country="malaysia"/>
+                <Story img="images/view3.webp" country="Denmark"/>
+                <Story img="images/view1.webp" country="norway"/>
+                <Story img="images/view2.webp" country="malaysia"/>
+                <Story img="images/view3.webp" country="Denmark"/>
+                <Story img="images/view1.webp" country="norway"/>
+                <Story img="images/view2.webp" country="malaysia"/>
+                <Story img="images/view3.webp" country="Denmark"/>
+                
+            </div>
+            
+            
             </div> 
             
             

@@ -1,0 +1,18 @@
+.container{
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    background: rgb(24,119,242);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    gap: 10px;
+}

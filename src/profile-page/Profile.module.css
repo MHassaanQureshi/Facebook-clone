@@ -90,3 +90,21 @@
     padding: 20px;
     gap: 10px;
   }
+  .stories{
+    
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    
+    padding: 50px 0px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    overflow-y: hidden;
+  }
+
+  .extra{
+    width: 100%;
+    
+    background: black;
+    margin-top: 20%;
+  }

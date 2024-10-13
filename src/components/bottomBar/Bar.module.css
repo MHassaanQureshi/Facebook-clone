@@ -10,7 +10,7 @@
     
 }
 .main{
-    width: 95%;
+    width: 100%;
     background: white;
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@
 }
 @media (width>786px){
     .main{
-        margin-bottom: 8%;
+        
         
         border-radius: 0%;
         -webkit-border-radius: 0%;
