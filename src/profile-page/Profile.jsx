@@ -1,5 +1,6 @@
 import Style from "./Profile.module.css"
 import Bar from "../components/bottomBar/Bar";
+import Button from "../components/button/Button";
 export default function Profile(){
     return(
         <>
@@ -18,11 +19,15 @@ export default function Profile(){
             </div>
             
             </div> 
+            
+            
         </div>
-        </div>
+        
+        
+    </div>
         <div className="bar">
     <Bar />
     </div>
-        </>
+    </>
     )
 }

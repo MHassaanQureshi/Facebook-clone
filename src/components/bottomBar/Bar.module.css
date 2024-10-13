@@ -23,6 +23,7 @@
     -ms-border-radius: 15%;
     -o-border-radius: 15%;
     margin-bottom: 19%;
+    
 }
 .user{
     width: 24px;
@@ -36,4 +37,19 @@
     -moz-border-radius: 10%;
     -ms-border-radius: 10%;
     -o-border-radius: 10%;
+}
+@media (width>786px){
+    .main{
+        margin-bottom: 8%;
+        
+        border-radius: 0%;
+        -webkit-border-radius: 0%;
+        -moz-border-radius: 0%;
+        -ms-border-radius: 0%;
+        -o-border-radius: 0%;
+        width: 100%;
+}
+.main::-webkit-scrollbar-corner{
+    display: none;
+}
 }

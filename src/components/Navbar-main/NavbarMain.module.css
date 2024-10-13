@@ -6,7 +6,7 @@
     
     justify-content: space-between;
     align-items: center;
-     border-bottom: 1px solid rgba(128, 128, 128, 0.293);
+     
      width: 100%;
     
 }
@@ -26,4 +26,7 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+@media (width>786px){
+    
 }

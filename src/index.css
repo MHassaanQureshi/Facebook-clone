@@ -9,4 +9,7 @@ body{
   background: rgba(255, 255, 255, 0.231);
   overflow-x: hidden;
 }
+body::-webkit-scrollbar{
+  display: none;
+}
 

@@ -11,6 +11,7 @@
     width: 100%;
     position:fixed;
     
+    
 }
 .uploadDivs{
     padding: 10px;
@@ -39,11 +40,12 @@
 .StoryContainer{
     display: flex;
     gap:3rem;
-    padding: 30px 0px;
-    height: 15%;
+    padding: 10px 0px;
+    height: 35%;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     margin-top: 40%;
+    
     
 }
 .StoryContainer::-webkit-scrollbar{
@@ -55,6 +57,7 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
+    margin-top: 2%;
 }
 .bar{
     background-color: rgba(128, 128, 128, 0.524);
@@ -63,13 +66,48 @@
     height: 50px;
     z-index: 999;
     
+    
   }
 @media (width<= 420px) {
  .StoryContainer{
     margin-top: 50%;
     gap:5rem;
+    height: 20%;
  }
  .posts{
     margin-top: -8%;
  }
+}
+@media (width>786px){
+    .StoryContainer{
+        margin-top: 15%;
+        height: 30%;
+        padding: 0%;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 40px;
+        width: 70%;
+        margin-left:12%;
+    }
+    .StoryContainer::-webkit-scrollbar{
+        display: block;
+        color: white;
+        background:white;
+        
+    }
+    .StoryContainer::-webkit-scrollbar-thumb{
+        background: rgb(24,119,242);
+    }
+    .posts{
+        margin-top: -5%;
+    }
+
+    
+}
+@media (width<= 320px) {
+    .StoryContainer{
+       margin-top: 60%;
+       gap:5rem;
+       height: 25%;
+    }
 }

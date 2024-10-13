@@ -1,13 +1,10 @@
 .container{
     width: 95%;
-    height: 70vh;
+    height: 100%;
     display: flex;
     background: white;
     border-radius: 5%;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
+    
     flex-direction: column;
     padding:0px 10px;
     margin-top: 5%;
@@ -40,8 +37,9 @@
     color: rgba(128, 128, 128, 0.513);
 }
 .userdetail img{
-    width: 20%;
-    height: 60%;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 10px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -148,5 +146,24 @@
     .userdetail p{
         font-size: 15px;
         
+    }
+}
+@media (width>786px){
+    .container{
+        width: 60%;
+       height: 100%;
+    }
+    .Analysis img{
+        width: 20%;
+        height: 20%;
+    }
+    .emoji{
+        width: 20%;
+        height: 20%;
+    }
+    .userdetail img{
+        width: 5rem;
+        height: 5rem;
+        padding: 10px;
     }
 }
